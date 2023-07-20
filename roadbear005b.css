@@ -16,7 +16,7 @@ body {
 }
 
 .jumbotron {
-    background: #8f1518;
+    background: #282828;
     padding: 5px;
     border-radius: 0;
     height: 90px;
@@ -90,8 +90,8 @@ div .btn-primary {
     padding-bottom: 10px;
 }
 .btn-primary:hover {
-    background-color: #484848;
-    border-color: #484848;
+    background-color: #801215;
+    border-color: #801215;
 }
 .btn-primary:focus {
     box-shadow: none
@@ -105,16 +105,16 @@ div .btn-primary {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color:   #484848;
-    border-color:       #484848;
+    background-color:   #801215;
+    border-color:       #801215;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color:   #484848;
+    background-color:   #801215;
     color:              #fff;
     box-shadow: none;
-    border-color: #484848;
+    border-color: #801215;
 }
 
 #send {
@@ -125,12 +125,12 @@ div .btn-primary {
 
 /* nav bar */
 #topNavBar {
-    background: #8f1518;
+    background: #282828;
 }
 
 @media (min-width: 640px){
     #topNavBar {
-        background: #8f1518 !important;
+        background: #282828 !important;
         display: flex;
         flex-direction: row;
     }
@@ -181,7 +181,7 @@ div .btn-primary {
     li[data-content-id="end"] .nav-link {
         background: #fff;
         border-color: #fff;
-        color: #8f1518 !important;
+        color: #282828 !important;
     }
     li[data-content-id="end"] .nav-link:focus {
         background: #ebebeb;
@@ -286,7 +286,7 @@ div .btn-primary {
 #endChatOverlay .jumbotron{
     width:              100%;
     height:             90px;
-    background-color:   #8f1518;
+    background-color:   #282828;
     margin:             0;
 }
 
@@ -350,7 +350,7 @@ div .btn-primary {
     }
 
     nav#topNavBar {
-        background: #8f1518 !important;
+        background: #282828 !important;
     }
     .nav-link {
         color: #fff !important;
