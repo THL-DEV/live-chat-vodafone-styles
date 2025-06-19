@@ -3,6 +3,10 @@ body {
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
+#preChatForm {
+  background: #fff;
+}
+
 
 /* remove logo */
 .jumbotron {
