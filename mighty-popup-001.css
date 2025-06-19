@@ -1,0 +1,30 @@
+body {
+  background: #fff;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+#preChatForm {
+  background: #fff;
+}
+
+
+/* remove logo */
+.jumbotron {
+  display: none;
+}
+
+/* push new heading */
+.questionaire:before {
+  content: 'Welcome to Live Chat';
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+/* button */
+div .btn-primary {
+  background-color: #ce2e23;
+  border: 1px solid #ce2e23;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
