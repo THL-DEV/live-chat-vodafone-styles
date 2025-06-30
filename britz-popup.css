@@ -1,0 +1,46 @@
+* {
+    font-family: 'Open Sans', 'Arial', sans-serif !important;
+}
+
+
+body {
+  background: #fff;
+}
+
+#preChatForm {
+  background: #fff;
+}
+
+
+/* remove logo */
+.jumbotron {
+  display: none;
+}
+
+/* push new heading */
+.questionaire:before {
+  content: 'Welcome to Live Chat';
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+/* button */
+div .btn-primary {
+  background-color: #f58026;
+  border: 1px solid #f58026;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div .btn-primary:hover, 
+div .btn-primary:active {
+  background-color: #c85900;
+  border: 1px solid #c85900;
+} 
+
+div .btn-primary[disabled],
+div .btn-primary[disabled]:hover,
+div .btn-primary[disabled]:active {
+   background: #777 !important; 
+}
